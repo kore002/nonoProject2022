@@ -10,7 +10,7 @@ function NoticeItem(title, content) {
   return (
     <div className='noticeBlock'>
       <div className='noticeHeader'>
-        <p>공지사항</p>
+        <p>공지 사항</p>
         <FiList className='emo' />
         <FiEdit className='emo' onClick={onClickButton1}/>
           {isOpen1 && ( 
