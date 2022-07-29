@@ -1,0 +1,18 @@
+
+.main{
+    border:1px solid black;
+    margin-left: 260px;
+    /* background-color: rgba(150, 150, 150, 0.8); */
+}
+.mainTop{
+    height: 95px;
+    padding:45px 30px;
+}
+.mainTop > h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.mainTop > p{
+    margin-top:10px;
+    font-size: 14px;
+}

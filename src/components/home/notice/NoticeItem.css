@@ -1,0 +1,29 @@
+.noticeBlock{
+  margin: 30px;
+  width: 320px;
+  height: 240px;
+}
+
+.noticeHeader{
+  width: 320px;
+  height: 40px;
+  display: flex;
+}
+.noticeHeader > p{
+  text-align: left;
+}
+
+.emp{
+  color: aqua;
+  width: 15px;
+  height: 15px;
+}
+
+.noticeBody{
+  width: 320px;
+  height: 200px;
+  display: flex;
+  /* margin: 30px; */
+  /* flex-direction : row; */
+  background-color: aquamarine;
+}

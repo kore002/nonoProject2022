@@ -1,0 +1,128 @@
+.sidebar{
+    height:100vh;
+    position:fixed;
+    top:0; left:0;
+    z-index:999;
+    width:260px;
+    background-color:#fff;
+}
+/* @media screen and (max-width: 800px) {
+    .sidebar{
+        display: none;
+        background-color: cadetblue;
+    }
+    /* .depth1 > li{
+        display: none;
+    } */
+/* } */
+.head{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    justify-content:flex-start;
+    align-items:center;
+    padding:10% 0;
+}
+.head > h1{
+    border:1px solid black;
+    font-size:50px;
+}
+.head .logo{
+    margin-left: 60px;
+}
+.head .logo h4{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    border-color: #F96D39;
+}
+.head .logo p{
+    font-size: 14px;
+}
+.head  .UserInfo{
+    margin-top: 30px;
+    display: flex;
+    /* border:1px solid black; */
+}
+.UserInfo > p{
+    font-weight: bold;
+    padding-top: 6px;
+    margin-left: 80px;
+}
+
+.MyPage{
+    
+    width: 74px;
+    height: 25px;
+    
+    margin-left: 40px;
+    font-size: 10px;
+    color : #1F6DE2;
+    padding-top: 6px;
+    text-align :center;
+    border:1px solid #1F6DE2;
+    border-radius: 5px;
+}
+.mainNav{
+    width:100%;
+}
+.depth1{
+    margin-top: 45px;
+}
+.depth1 > li{
+    display: flex;
+    
+    border-radius: 15px;
+    font-size: 16px;
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom:5px;
+}
+.depth1 > li:hover{
+    background-color: #F2F9FF;
+}
+.depthLi{
+    display: flex;
+
+}
+
+.liA{
+    display:flex;
+    align-items:center;
+    padding:2%;
+    margin-left: 15px;
+}
+.liP{
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+.emo{
+    display:  flex;
+    width:20px;
+    height:20px;
+    margin-right:10px;
+    /* background-color:green; */
+}
+
+/* @media screen and (max-width:950px){
+    .sidebar{
+        width: 90px;
+    }
+    .head > h1{display: none;}
+    .head > h3{display:none; }
+    .UserInfo > p{display: none;}
+    .MyPage{display: none;}
+    .depth1{
+        margin-top: 150px;
+    }
+    .liA{
+        margin-bottom: 20%;
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+    .liP{display:none;}
+} */
